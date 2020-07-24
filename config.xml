@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<widget xmlns  = "http://www.w3.org/ns/widgets"
+    id        = "io.cordova.helloCordova"
+    version   = "2.0.0">
+<name>APP NAME</name>
+
+<description>
+    DESCRIPTION
+</description>
+
+<author href="YOUR URL" email="YOUR EMAIL">
+    YOUR NAME
+</author>
+
+<access origin="*"/>
+
+<!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
+<content src="index.html" />
+  
+  
   <preference name="Fullscreen" value="true" />
   <allow-navigation href="http://*/*" />
   <allow-intent href="https://*/*" />
+
+ 
+<!--
+  <preference name="splashscreen" value="resourceName" />
+  <preference name="backgroundColor" value="0xFFF" />
+  <preference name="loadUrlTimeoutValue" value="20000" />
+  <preference name="InAppBrowserStorageEnabled" value="true" />
+  <preference name="disallowOverscroll" value="true" />
+
+
+<feature name="App">
+  <param name="android-package" value="org.apache.cordova.App"/>
+</feature>   -->
+
+
+
+</widget>
+     
+
